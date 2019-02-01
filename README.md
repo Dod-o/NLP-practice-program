@@ -14,7 +14,7 @@
 
 ## 包含内容
 ### 1.word2vec词嵌入
-[基于skip-gram训练词嵌入矩阵](https://github.com/Dod-o/NLP-practice-program/tree/master/skip_gram)    
+[基于skip-gram训练词嵌入矩阵](https://github.com/Dod-o/NLP-practice-program/tree/master/1.skip_gram)    
 ##### 运行结果 （选取其中一个单词为例，根据词嵌入矩阵计算邻近词）
 >训练前：    
 hemoglobin -->  alden, vive, deviations, dlp, taj, beauvoir, pillow, allying      
@@ -24,8 +24,9 @@ hemoglobin -->  alden, vive, deviations, dlp, taj, beauvoir, pillow, allying
 hemoglobin --> ligand, molecules, ligands, photosynthesis, aerobic, enzyme, pancreatic, chlorophyll     
 有道翻译结果：血红蛋白 --> 配体、分子、配体、光合作用、需氧、酶、胰腺、叶绿素
 
+&nbsp; 
 ### 2.文本生成
-[基于LSTM生成哈利波特风格文本](https://github.com/Dod-o/NLP-practice-program/tree/master/harry_potter_lstm)    
+[基于LSTM生成哈利波特风格文本](https://github.com/Dod-o/NLP-practice-program/tree/master/2.harry_potter_lstm)    
 ##### 运行结果
 >Hi, he was nearly off at Harry to say the time that and she had been back to his staircase of the too the Hermione?
      
