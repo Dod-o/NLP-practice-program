@@ -20,11 +20,10 @@
 [-->代码详解_视频入口](https://www.bilibili.com/video/av42442500)    
 
 ##### 运行结果 （选取其中一个单词为例，根据词嵌入矩阵计算邻近词）
->训练前：    
+>**训练前**：    
 hemoglobin -->  alden, vive, deviations, dlp, taj, beauvoir, pillow, allying      
 有道翻译结果：血红蛋白  --> 奥尔登，vive，偏差，dlp，泰姬陵，波伏娃，枕头，结盟     
-      
->训练后：     
+**训练后**：     
 hemoglobin --> ligand, molecules, ligands, photosynthesis, aerobic, enzyme, pancreatic, chlorophyll     
 有道翻译结果：血红蛋白 --> 配体、分子、配体、光合作用、需氧、酶、胰腺、叶绿素
 
