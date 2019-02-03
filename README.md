@@ -31,6 +31,7 @@ hemoglobin --> ligand, molecules, ligands, photosynthesis, aerobic, enzyme, panc
 ### 2.文本生成    
 **风格仿写**：学习哈利波特1-7全文，训练结束后给定起始单词（下方运行结果中，给定的起始单词为'Hi, '）,由模型自主生成哈利波特风格的句子。      
 [-->项目入口](https://github.com/Dod-o/NLP-practice-program/tree/master/2.harry_potter_lstm)    
+[-->代码详解_视频入口](https://www.bilibili.com/video/av42442500/?p=3)    
 ##### 运行结果
 >Hi, he was nearly off at Harry to say the time that and she had been back to his staircase of the too the Hermione?
 
