@@ -34,5 +34,13 @@ hemoglobin --> ligand, molecules, ligands, photosynthesis, aerobic, enzyme, panc
 [-->项目入口](https://github.com/Dod-o/NLP-practice-program/tree/master/2.harry_potter_lstm)    
 ##### 运行结果
 >Hi, he was nearly off at Harry to say the time that and she had been back to his staircase of the too the Hermione?
+
+&nbsp; 
+### 3.seq2seq模型    
+**字母排序**：seq2seq最基础应用，给定单词如bca，使用seq2seq排序为abc。      
+[-->项目入口](https://github.com/Dod-o/NLP-practice-program/tree/master/3.seq2seq_alphabetical%20order)    
+##### 运行结果
+>the input is: hello     
+the output is: ['e', 'h', 'l', 'l', 'o']
      
      
