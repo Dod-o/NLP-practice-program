@@ -1,6 +1,6 @@
 #coding=utf-8
 #Author:Dodo
-#Date:2018-01-29
+#Date:2019-01-29
 #Blog:www.pkudodo.com
 
 '''
@@ -44,8 +44,8 @@ def loadData(fileName, low_threshold = 10, high_freq_threshold = 0.85):
 
     #删除标点符号，并以空格切分字符串，形成单个单词
     #punctuation内部是ascii中包含的一些标点符号
-    for c in string.punctuation:
-        text.replace(c, ' ')
+    for c in string.punctuation:    # ， . : ; !
+        text = text.replace(c, ' ')
     #切分
     text = text.split()
 
@@ -110,6 +110,15 @@ def get_batch(text, windows_size, batch_size):
     :param windows_size:窗口尺寸
     :param batch_size:batch尺寸
     :return:
+    我喜欢春天的美丽和温暖
+
+    size = 3
+    中心词：我
+    周围词：喜欢春
+    训练集：
+        （我， 喜）
+        （我， 欢）
+        （我， 春）
     '''
     x, y = [], []
     for id in range(len(text)):
@@ -142,6 +151,15 @@ def get_batch(text, windows_size, batch_size):
 
 def model_build(vocab_size, embedding_size, n_sample):
     '''
+    skip-gram  cbow
+    skip-gram   中心词     -》    周围词
+    cbow        周围词     -》    中心词
+
+    我喜欢足球       喜欢   ->   名词：我  你  他    足球  保龄球   写程序
+
+    我爱好足球       爱好  -》     名词：我  你  他    足球  保龄球   写程序
+
+
     创建模型结构
 
     整个结构分三层
@@ -178,7 +196,7 @@ def model_build(vocab_size, embedding_size, n_sample):
     input = tf.placeholder(dtype=tf.int32, shape=(None), name='input')
     label = tf.placeholder(dtype=tf.int32, shape=(None, None), name='label')
 
-    #嵌入层
+    #获取词嵌入向量
     embedding = tf.Variable(tf.truncated_normal(shape=(vocab_size, embedding_size), stddev=0.1), name='embedding')
     embed = tf.nn.embedding_lookup(params=embedding, ids=input, name='embed')
 
