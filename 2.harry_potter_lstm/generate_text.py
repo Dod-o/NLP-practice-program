@@ -76,7 +76,7 @@ if __name__ == '__main__':
     checkpoint = tf.train.latest_checkpoint('checkpoint/')
     print(checkpoint)
 
-    #生成物文本
+    #生成文本
     samp = sample(checkpoint, 150, lstm_num_units, len(vocab), prime="Hi, ")
     print('--------------------------------')
     print(samp)

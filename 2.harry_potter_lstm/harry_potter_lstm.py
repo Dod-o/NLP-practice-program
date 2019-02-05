@@ -1,3 +1,17 @@
+#coding=utf-8
+#Author:Dodo
+#Date:2019-02-03
+#Blog:www.pkudodo.com
+
+'''
+文件结构:
+  harry_potter_lstm.py:训练模型
+  generate_text.py:生成文本
+
+训练结果：（给定首字母"Hi, "）
+Hi, he was nearly off at Harry to say the time that and she had been back to his staircase of the too the Hermione?
+'''
+
 import tensorflow as tf
 import numpy as np
 
@@ -102,7 +116,7 @@ def model_lstm(lstm_num_units, keep_prob, num_layers, n_seqs):
 
     #循环创建层
     for i in range(num_layers):
-        #单独创建一个lstm节点
+        #单独创建一层lstm节点
         cell = tf.nn.rnn_cell.BasicLSTMCell(num_units=lstm_num_units)
         #添加drop
         drop = tf.nn.rnn_cell.DropoutWrapper(cell=cell, output_keep_prob=keep_prob)
@@ -124,7 +138,7 @@ def model_output(lstm_output, in_size, out_size):
     因为在输入时输入矩阵是n_seqs * n_sequencd_length大小的，lstm的隐层节点数目是lstm_num_units，
     所以lstm输出的大小是[n_seqs, n_sequencd_length, lstm_num_units]
     Softmax的大小是词汇表的长度，也就是len(vocab)
-    在输出中一共有n_seqs * n_sequencd_length个词汇，然后我们需要转换成[n_seqs * n_sequencd_length, lstm_num_units]，
+    在输出中一共有n_seqs * n_sequencd_length个字符，然后我们需要转换成[n_seqs * n_sequencd_length, lstm_num_units]，
     再通过softmax层，softmax是lstm_num_units，所以中间的w大小应该是[lstm_num_units, len(vocab)]
 
     首先需要做的是讲lstm的输出的维度转换成[n_seqs * n_sequencd_length, lstm_num_units]，变成二维的，再进行后续处理
@@ -235,7 +249,7 @@ if __name__ == '__main__':
     1.数据预处理：
         数据加载、数据预处理、数据切片batch
     2.模型构建
-        输入层、lstm层、输出层、loss、optimizater
+            输入层、lstm层、输出层、loss、optimizater
     3.训练
     4.生成文本
     '''

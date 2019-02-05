@@ -1,8 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c988222b-f7ee-4a36-bc37-2143c6e5e405" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/1.skip_gram/skip_gram.py" beforeDir="false" afterPath="$PROJECT_DIR$/1.skip_gram/skip_gram.py" afterDir="false" />
+    <list default="true" id="4548899d-022e-4df6-a025-303f9e476ad8" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/NLP-practice-program.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/1.skip_gram/data/text" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2.harry_potter_lstm/generate_text.py" beforeDir="false" afterPath="$PROJECT_DIR$/2.harry_potter_lstm/generate_text.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2.harry_potter_lstm/harry_potter_lstm.py" beforeDir="false" afterPath="$PROJECT_DIR$/2.harry_potter_lstm/harry_potter_lstm.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -15,81 +22,44 @@
       <usages-collector id="statistics.lifecycle.project">
         <counts>
           <entry key="project.closed" value="3" />
-          <entry key="project.open.time.0" value="2" />
-          <entry key="project.open.time.5" value="1" />
+          <entry key="project.open.time.2" value="1" />
+          <entry key="project.open.time.4" value="2" />
           <entry key="project.opened" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="py" value="5" />
-          <entry key="text" value="4" />
+          <entry key="py" value="14" />
+          <entry key="txt" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="PLAIN_TEXT" value="4" />
-          <entry key="Python" value="5" />
+          <entry key="PLAIN_TEXT" value="5" />
+          <entry key="Python" value="14" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="py" value="1480" />
+          <entry key="py" value="151" />
+          <entry key="txt" value="10" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Python" value="1480" />
+          <entry key="PLAIN_TEXT" value="10" />
+          <entry key="Python" value="151" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/1.skip_gram/skip_gram.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="648">
-              <caret line="305" column="45" selection-start-line="305" selection-start-column="45" selection-end-line="305" selection-end-column="45" />
-              <folding>
-                <element signature="e#1813#1826#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/3.seq2seq_alphabetical order/seq2sqe_basic.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-598">
-              <caret line="16" column="3" lean-forward="true" selection-start-line="16" selection-start-column="3" selection-end-line="16" selection-end-column="3" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/3.seq2seq_alphabetical order/test.py">
+        <entry file="file://$PROJECT_DIR$/3-B-seq2seq_summary_burner/summary_burner.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="35">
-              <caret line="18" column="30" lean-forward="true" selection-start-line="18" selection-start-column="30" selection-end-line="18" selection-end-column="30" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://D:/Anaconda3/envs/p36/Lib/site-packages/tensorflow/python/ops/nn_impl.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="27623">
-              <caret line="1217" column="53" selection-start-line="1217" selection-start-column="52" selection-end-line="1217" selection-end-column="53" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/1.skip_gram/data/text">
-          <provider selected="true" editor-type-id="LargeFileEditor">
-            <state relative-caret-position="230">
-              <caret column="10765" selection-start-column="10758" selection-end-column="10765" />
+            <state relative-caret-position="-8573">
+              <caret line="41" column="11" lean-forward="true" selection-start-line="41" selection-start-column="11" selection-end-line="41" selection-end-column="11" />
             </state>
           </provider>
         </entry>
@@ -98,7 +68,8 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>main</find>
+      <find>get_rnn_cell</find>
+      <find>test_clean_text</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -107,7 +78,11 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/1.skip_gram/skip_gram.py" />
+        <option value="$PROJECT_DIR$/2.harry_potter_lstm/data/Harry_Potter1-7.txt" />
+        <option value="$PROJECT_DIR$/2.harry_potter_lstm/harry_potter_lstm.py" />
+        <option value="$PROJECT_DIR$/2.harry_potter_lstm/generate_text.py" />
+        <option value="$PROJECT_DIR$/3-B-seq2seq_summary_burner/summary_burner.py" />
+        <option value="$PROJECT_DIR$/3-B-seq2seq_summary_burner/general_summary.py" />
       </list>
     </option>
   </component>
@@ -117,7 +92,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="173" />
     <option name="y" value="260" />
     <option name="width" value="1636" />
@@ -138,18 +113,12 @@
             <path>
               <item name="NLP-practice-program" type="b2602c69:ProjectViewProjectNode" />
               <item name="NLP-practice-program" type="462c0819:PsiDirectoryNode" />
-              <item name="1.skip_gram" type="462c0819:PsiDirectoryNode" />
+              <item name="3-A.seq2seq_alphabetical order" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="NLP-practice-program" type="b2602c69:ProjectViewProjectNode" />
               <item name="NLP-practice-program" type="462c0819:PsiDirectoryNode" />
-              <item name="1.skip_gram" type="462c0819:PsiDirectoryNode" />
-              <item name="data" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="NLP-practice-program" type="b2602c69:ProjectViewProjectNode" />
-              <item name="NLP-practice-program" type="462c0819:PsiDirectoryNode" />
-              <item name="3.seq2seq_alphabetical order" type="462c0819:PsiDirectoryNode" />
+              <item name="3-B-seq2seq_summary_burner" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -160,10 +129,9 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -182,11 +150,11 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="c988222b-f7ee-4a36-bc37-2143c6e5e405" name="Default Changelist" comment="" />
-      <created>1549088480020</created>
+      <changelist id="4548899d-022e-4df6-a025-303f9e476ad8" name="Default Changelist" comment="" />
+      <created>1549184285591</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1549088480020</updated>
+      <updated>1549184285591</updated>
     </task>
     <servers />
   </component>
@@ -224,55 +192,60 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$USER_HOME$/.PyCharm2018.2/system/python_stubs/-2036615904/numpy/core/multiarray.py">
+    <entry file="file://$PROJECT_DIR$/2.harry_potter_lstm/harry_potter_lstm.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="311">
-          <caret line="115" column="4" selection-start-line="115" selection-start-column="4" selection-end-line="115" selection-end-column="4" />
+        <state relative-caret-position="724">
+          <caret line="297" column="54" selection-start-line="297" selection-start-column="54" selection-end-line="297" selection-end-column="54" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/.PyCharm2018.2/system/python_stubs/891972517/builtins.py">
+    <entry file="file://$PROJECT_DIR$/3-A.seq2seq_alphabetical order/test.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="311">
-          <caret line="339" column="4" selection-start-line="339" selection-start-column="4" selection-end-line="339" selection-end-column="4" />
+        <state>
+          <caret selection-end-column="27" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/1.skip_gram/skip_gram.py">
+    <entry file="file://D:/Anaconda3/envs/p36/Lib/site-packages/tensorflow/python/ops/gradients_impl.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="648">
-          <caret line="305" column="45" selection-start-line="305" selection-start-column="45" selection-end-line="305" selection-end-column="45" />
-          <folding>
-            <element signature="e#1813#1826#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="119">
+          <caret line="375" column="16" selection-start-line="375" selection-start-column="14" selection-end-line="375" selection-end-column="16" />
         </state>
       </provider>
     </entry>
-    <entry file="file://D:/Anaconda3/envs/p36/Lib/site-packages/tensorflow/python/ops/nn_impl.py">
+    <entry file="file://D:/Anaconda3/envs/p36/Lib/site-packages/tensorflow/python/ops/rnn.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="27623">
-          <caret line="1217" column="53" selection-start-line="1217" selection-start-column="52" selection-end-line="1217" selection-end-column="53" />
+        <state relative-caret-position="341">
+          <caret line="530" column="50" selection-start-line="530" selection-start-column="50" selection-end-line="530" selection-end-column="50" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/1.skip_gram/data/text">
-      <provider selected="true" editor-type-id="LargeFileEditor">
-        <state relative-caret-position="230">
-          <caret column="10765" selection-start-column="10758" selection-end-column="10765" />
+    <entry file="file://$PROJECT_DIR$/2.harry_potter_lstm/data/Harry_Potter1-7.txt" />
+    <entry file="file://$PROJECT_DIR$/3-A.seq2seq_alphabetical order/seq2sqe_basic.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="16" selection-end-column="3" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/3.seq2seq_alphabetical order/seq2sqe_basic.py">
+    <entry file="file://$PROJECT_DIR$/2.harry_potter_lstm/generate_text.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-598">
-          <caret line="16" column="3" lean-forward="true" selection-start-line="16" selection-start-column="3" selection-end-line="16" selection-end-column="3" />
+        <state relative-caret-position="264">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/3.seq2seq_alphabetical order/test.py">
+    <entry file="file://$PROJECT_DIR$/3-B-seq2seq_summary_burner/general_summary.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="35">
-          <caret line="18" column="30" lean-forward="true" selection-start-line="18" selection-start-column="30" selection-end-line="18" selection-end-column="30" />
+        <state relative-caret-position="595">
+          <caret line="50" column="43" selection-start-line="50" selection-start-column="43" selection-end-line="50" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/3-B-seq2seq_summary_burner/summary_burner.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-8573">
+          <caret line="41" column="11" lean-forward="true" selection-start-line="41" selection-start-column="11" selection-end-line="41" selection-end-column="11" />
         </state>
       </provider>
     </entry>
