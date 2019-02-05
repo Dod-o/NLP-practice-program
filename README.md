@@ -34,13 +34,23 @@ hemoglobin --> ligand, molecules, ligands, photosynthesis, aerobic, enzyme, panc
 [-->代码详解_视频入口](https://www.bilibili.com/video/av42442500/?p=3)    
 ##### 运行结果
 >Hi, he was nearly off at Harry to say the time that and she had been back to his staircase of the too the Hermione?
-
+      
 &nbsp; 
-### 3.seq2seq模型    
-**字母排序**：seq2seq最基础应用，给定单词如bca，使用seq2seq排序为abc。      
+### 3.字母排序     
+seq2seq最基础应用，给定单词如bca，使用seq2seq排序为abc。      
 [-->项目入口](https://github.com/Dod-o/NLP-practice-program/tree/master/3-A.seq2seq_alphabetical%20order)    
 ##### 运行结果
 >the input is: hello     
-the output is: ['e', 'h', 'l', 'l', 'o']
-     
+the output is: ['e', 'h', 'l', 'l', 'o']      
+    
+&nbsp; 
+### 3.摘要生成     
+seq2seq应用，给定一段话，自动生成摘要。      
+[-->项目入口](https://github.com/Dod-o/NLP-practice-program/tree/master/3-B-seq2seq_summary_burner)    
+##### 运行结果
+>------------the text is:----------------      
+Use olive oil to cook this, salt it well, and it is the best, most tender popcorn I have ever eaten. I add a tiny bit of butter to mine, but don't need it. My nine year old daughter didn't like popcorn until she reluctantly tried this. After a few bites, she consumed half the bowl!     
+I bought mine at a specialty popcorn shop in Long Grove IL, so I didn't have to pay shipping costs, but when it's gone, I might have to bite the bullet and order it from here.",Spoiled me for other popcorn      
+------------the summary is:-------------     
+best tasting popcorn ever     
      
