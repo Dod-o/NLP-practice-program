@@ -148,8 +148,7 @@ def model_output(lstm_output, in_size, out_size):
     :return:
     '''
 
-    #对lstm的输出维度进行转换，concat的用法在百度可以很方便查到。
-    lstm_output = tf.concat(lstm_output, axis=1)
+    #将维度转换为[n_seqs * n_sequencd_length, lstm_num_units]
     lstm_output = tf.reshape(lstm_output, shape=(-1, in_size))
 
     with tf.variable_scope('softmax'):
